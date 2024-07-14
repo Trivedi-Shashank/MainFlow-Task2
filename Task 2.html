@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main Flow Web Dev - Task 2</title>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    body {
+      background-color: #E6E6FA;
+    }
+header {
+  background-color: #F8F9F9; 
+  border: 1px solid #ccc; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button:hover {
+background-color: #a2c1a2;
+}
+header h1 {
+  color: #210e68;
+  margin: 0;
+  text-align: center;
+}
+
+#menu-icon {
+  display: none;
+}
+
+p {
+  color: #8B7D7B;
+  margin: 1em auto;
+}
+
+.button-container {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.button {
+  background-color: #ADD8E6;
+  border: none;
+  color: #000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#about-me {
+  margin-top: 20px;
+  margin-left: 00px;
+  padding: 20px;
+  background-color: #F5F5DC;
+  border: px solid #ccc;
+  border-radius: 5px;
+}
+
+#dropdown-box {
+  margin-top: 20px;
+  margin-left: 0;
+  padding: 2px;
+  background-color: #f4dcf5;
+  border: px solid #000000;
+  border-radius: 5px;
+}
+
+#dropdown-box select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+#dropdown-box select:focus {
+  box-shadow: 0 0 2px 1px #ADD8E6;
+}
+
+#dropdown-box select option {
+  background-color: #f5dcf1;
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#submit-button {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  background-color: #ADD8E6;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#submit-button:hover {
+  background-color: #90EE90;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header h1 {
+    margin-bottom: 10px;
+  }
+
+  #menu-icon {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .button-container {
+    text-align: center;
+  }
+
+  #dropdown-box {
+    width: 80%;
+  }
+}
+  </style>
+</head>
+<body>
+  <header>
+    <div style="flex-grow: 1; text-align: center;">
+      <h1>Main Flow Web Development - Task 2</h1>
+      <p>Hi, I am Shashank Trivedi</p>
+    </div>
+  </header>
+  <div class="button-container">
+    <a href="#section-1" class="button">Section 1</a>
+    <a href="#section-2" class="button">Section 2</a>
+    <a href="#dropdown-box" class="button">Dropdown Box</a>
+    <a href="#contact-me" class="button">Contact Me</a>
+  </div>
+  <section id="section-1">
+    <h2>Section 1</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, repellat alias magni tempore facilis aspernatur nobis molestiae minima debitis dolorem quam maxime fugiat vitae, iusto corrupti architecto consectetur consequatur ipsum quas quaerat assumenda illo amet nisi corporis! Architecto, ab delectus ut qui et unde ad esse quibusdam consequuntur accusantium, animi, dolores dolor quam nobis ratione consequatur ex doloremque nesciunt perferendis nostrum illum? Velit ex voluptatum dicta cumque animi consectetur hic? Non, doloribus! Eligendi vitae enim ratione iure consequatur ullam et ad odit sed officiis alias dolore hic, autem incidunt velit. Porro quia id sapiente earum minus aspernatur consectetur voluptate sequi error. Modi dolorum aliquid eaque rerum explicabo vitae, ipsam suscipit ut accusantium laborum sunt ipsum cumque minus possimus deserunt incidunt. Aliquam labore dolorum quo? At omnis reprehenderit totam a sint itaque dicta quod voluptate aliquam deserunt similique, officiis, quaerat tempore quas animi delectus exercitationem non modi porro ab molestias maiores. Illum reprehenderit officiis eius accusamus placeat in iste similique soluta! Magnam laborum, consequatur laudantium nostrum similique repudiandae inventore earum culpa blanditiis non reiciendis nobis error. Sit, officiis eaque ipsum quos deserunt alias explicabo. Fugit recusandae dicta quisquam, ea aut corrupti earum totam, possimus doloremque iste nesciunt blanditiis deserunt esse nisi.
+    </p>
+  </section>
+  <section id="section-2">
+    <h2>Section 2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas earum omnis qui! Quos officia saepe delectus repellendus a magnam eaque iusto vitae! Exercitationem explicabo officia ipsum amet voluptatem ex laudantium ratione, debitis ipsa corrupti, magnam alias voluptas vitae hic a, veniam accusamus. Nulla dolorum ab perferendis corrupti. Harum error culpa ad quibusdam aliquid. Qui repudiandae quae vel blanditiis tenetur, laudantium quo libero, veritatis animi, ullam aut magni natus assumenda nostrum autem consectetur ab itaque. Dicta harum excepturi sunt similique atque sed enim ea, accusantium ducimus? Recusandae aspernatur possimus voluptates, atque suscipit voluptate ad id quibusdam. Deserunt ipsam fuga quod error obcaecati, molestiae praesentium dolorum sunt cumque voluptatem veniam quaerat nostrum ipsa quasi accusamus illum nemo odit minima unde eius delectus sint dignissimos. Reprehenderit neque veniam earum iure nam assumenda excepturi velit exercitationem! Minima est ipsa voluptatibus quisquam iusto nesciunt laborum sit! Porro, labore. Fuga in sed distinctio veniam modi soluta facilis, asperiores recusandae enim perferendis fugiat. Fugiat, magni rerum. Veniam itaque provident praesentium vel distinctio molestias suscipit ipsam. Suscipit voluptatibus sed iste laudantium odio at nihil earum! Praesentium voluptates neque debitis nihil numquam optio aliquam harum, assumenda eum, fugiat animi exercitationem dolor enim accusantium doloribus dolores id omnis hic laudantium velit voluptatum saepe totam ea ipsa. Dolor alias, officiis eligendi soluta autem, sequi est sint ad at esse laborum eum nisi vel rerum ullam atque quidem adipisci. Accusantium earum quos exercitationem blanditiis minima modi corporis dolor odio veritatis eligendi quod, tempora atque deleniti suscipit aliquam architecto placeat autem dolorum quia?</p>
+  </section>
+  <section id="dropdown-box">
+    <h2>Dropdown Box</h2>
+    <p>Select an option:</p>
+    <select>
+      <option>Option 1</option>
+      <option>Option 2</option>
+      <option>Option 3</option>
+      <option>Option 4</option>
+      <option>Option 5</option>
+    </select>
+    <button id="submit-button">Submit</button>
+  </section>
+  <section id="contact-me">
+    <h2>Contact Me</h2>
+    <p>Follow me on social media:</p>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/shashank-trivedi-526244217/">LinkedIn</a></li>
+      <li><a href="https://github.com/shashanktrivedi76">GitHub</a></li>
+      <li><a href="https://www.instagram.com/shashanktrivedi76/">Instagram</a></li>
+    </ul>
+  </section>
+</body>
+</html>
